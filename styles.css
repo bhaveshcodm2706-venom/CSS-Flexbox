@@ -170,3 +170,59 @@ padding: 1rem;
   color:gray;
   line-height: 1.4;
 }
+
+
+.testimonial-card {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  padding: 25px;
+  background:lemonchiffon;
+  border-left: 5px solid yellow;
+  border-radius: 8px;
+
+}
+
+.quote {
+  font-size: 2rem;
+  color:red;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+.text {
+  
+  flex: 1;
+  margin:  20px ;
+  color: red;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+.info {
+ 
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.person {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background:yellow;
+  color: green;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.name {
+  margin: 0;
+  font-weight: 700;
+  color:black;
+  font-size: 1rem;
+}
