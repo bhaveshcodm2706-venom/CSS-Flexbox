@@ -28,3 +28,27 @@
   width: 100px;
   border: 2px solid black;
 }
+
+
+
+.navbar {
+  display: flex;
+  flex-wrap:wrap; 
+  list-style: none;
+background-color: aqua;
+padding: 1rem;
+  
+}
+
+.navbar li {
+ flex: 200px;
+  text-align: center;
+  
+}
+
+.navbar a {
+ 
+  text-decoration: none;
+ color:black;
+}
+
