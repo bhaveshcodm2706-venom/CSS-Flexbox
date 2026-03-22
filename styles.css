@@ -221,8 +221,48 @@ padding: 1rem;
 }
 
 .name {
-  margin: 0;
-  font-weight: 700;
   color:black;
   font-size: 1rem;
 }
+
+
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-between; 
+  width: 200px;
+  height: 250px;
+  padding: 20px;
+  background:lightskyblue;
+  border: 2px solid black;
+  border-radius: 15px;
+  
+}
+
+.Names {
+  margin: 0;
+  font-size: 1rem;
+  color:red;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.Prices {
+  display: flex;
+  align-items: baseline;
+  margin: 20px ;
+  font-size: 2rem;
+  font-weight: bold;
+  color:green;
+}
+.button {
+  width: 100%;
+  padding: 12px;
+  background-color:violet;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
