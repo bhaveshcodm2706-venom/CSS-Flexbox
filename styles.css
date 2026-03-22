@@ -52,3 +52,39 @@ padding: 1rem;
  color:black;
 }
 
+
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 200px;
+  padding: 20px;
+  background:white;
+  border-radius: 12px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; 
+  object-fit: cover;
+  margin-bottom: 15px;
+  background-color:white;
+}
+
+.Name {
+  margin: 8px ;
+  font-size: 1.2rem;
+  color:black;
+}
+
+.description {
+  margin: 0;
+  font-size: 1rem;
+  color:gray;
+  
+}
+
