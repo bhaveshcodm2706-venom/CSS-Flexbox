@@ -90,7 +90,7 @@ padding: 1rem;
 
 .card-container {
   display: flex;
-  justify-content: center;
+  justify-content:left;
   padding: 20px;
   background-color:whitesmoke;
 }
@@ -125,4 +125,48 @@ padding: 1rem;
   color:gray;
   font-size: 1rem;
   line-height: 2;
+}
+
+
+.product-card {
+  display: flex;
+  align-items: center;  
+  max-width: 400px;
+  background:white;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+.product-img {
+  width:  150px; 
+  height: 150px;
+  object-fit: cover;
+}
+
+.details {
+  display: flex;
+  flex: 1;
+  padding: 15px;
+  flex-direction: column;
+  gap: 8px; 
+}
+
+.title {
+  margin: 0;
+  font-size: 1rem;
+  color: black;
+}
+
+.price {
+  font-weight: bold;
+  color:green;
+  font-size: 1.2rem;
+}
+
+.description{
+  font-size: 1rem;
+  color:gray;
+  line-height: 1.4;
 }
